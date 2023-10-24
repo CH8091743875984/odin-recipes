@@ -3,7 +3,7 @@ img {
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #a4dda4;
     font-family:Helvetica, Arial, sans-serif;
     color:rgb(29, 29, 29)
 }
@@ -20,4 +20,28 @@ h1.home {
     text-align: center;
     font-size: 48px;
     text-emphasis: 1000;
+    border: 2px solid black;
+    padding: 10px;
+    background: #39b139;
+    border-radius: 10px;
+    
+}
+
+.recipes {
+    text-align:center;
+    
+}
+
+.singlerecipe{
+    width: 200px;
+    display:inline;
+    background-color:#39b139;
+    margin:5px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.recipes a:visited {
+    color:black;
 }
